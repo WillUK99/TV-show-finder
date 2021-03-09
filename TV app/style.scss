@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .searchBtn {
+        margin-bottom: 1em;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    div {
+        margin-bottom: 10px;
+        text-align: center;
+        
+        img {
+            width: 210px;
+            height: 295px;
+            padding: 2px;
+        }
+    }
+    
+}
